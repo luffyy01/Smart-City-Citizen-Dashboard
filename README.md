@@ -1,16 +1,35 @@
-# React + Vite
+# 🏙️ SmartCity AI Citizen Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![SmartCity Dashboard Preview](https://via.placeholder.com/1200x600.png?text=SmartCity+Dashboard+Preview) 
+*(Note to student: Replace the image link above with a real screenshot of your deployed project once it is live!)*
 
-Currently, two official plugins are available:
+## 🚀 Overview
+The **SmartCity Citizen Dashboard** is a real-time, responsive web application designed for municipal administration and citizen engagement. It serves as a centralized hub providing live, up-to-the-second telemetry data across four key civic verticals: Weather, Economy (Currency), Demographics (Featured Citizen), and Civic Education (City Facts). 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The flagship feature of this dashboard is the **Smart Assistant**, an integrated AI chatbot powered by Large Language Models (LLMs). The assistant uses a strict context-injection pattern, meaning it reads the live data currently displayed on the dashboard and answers citizen queries *exclusively* based on that telemetry, preventing AI hallucinations.
 
-## React Compiler
+## ✨ Key Features
+* **🌤️ Live Weather Telemetry:** Fetches real-time temperature, wind speed, and weather codes based on city coordinates.
+* **💱 Economic Indicators:** Displays live currency exchange rates converting INR to USD, EUR, and GBP.
+* **👤 Citizen Spotlight:** Generates dynamic, mock citizen profiles including names, locations, and contact details.
+* **🏙️ Civic Trivia:** Provides a randomly generated "City Fact of the Day."
+* **🤖 Context-Aware AI Assistant:** A floating chatbot that ingests the live API data and answers user questions contextually without relying on external internet searches or making up data.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
+* **Frontend Framework:** React.js (via Vite)
+* **Styling:** Custom CSS (Glassmorphism, CSS Grid, Responsive Design)
+* **APIs Integrated:**
+  * [Open-Meteo API](https://api.open-meteo.com/) (Weather)
+  * [ExchangeRate-API](https://open.er-api.com/) (Currency)
+  * [RandomUser API](https://randomuser.me/) (Citizen Profiles)
+  * [UselessFacts API](https://uselessfacts.jsph.pl/) (Trivia)
+* **AI Provider:** Hugging Face Inference API / OpenRouter
 
-## Expanding the ESLint configuration
+## ⚙️ Local Setup & Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/luffyy01/Smart-City-Citizen-Dashboard
+ 
