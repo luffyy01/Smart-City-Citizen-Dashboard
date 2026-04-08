@@ -3,6 +3,9 @@
 ![SmartCity Dashboard Preview](https://via.placeholder.com/1200x600.png?text=SmartCity+Dashboard+Preview) 
 *(Note to student: Replace the image link above with a real screenshot of your deployed project once it is live!)*
 
+##VIEW
+https://smart-city-citizen-dashboard.vercel.app/
+
 ## 🚀 Overview
 The **SmartCity Citizen Dashboard** is a real-time, responsive web application designed for municipal administration and citizen engagement. It serves as a centralized hub providing live, up-to-the-second telemetry data across four key civic verticals: Weather, Economy (Currency), Demographics (Featured Citizen), and Civic Education (City Facts). 
 
